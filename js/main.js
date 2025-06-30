@@ -30,3 +30,16 @@ $(document).ready(function () {
         position: 'top-left'
     });
 });
+
+const imagenes = document.querySelectorAll(".galeria img");
+
+imagenes.forEach((img) => {
+    img.addEventListener("mouseover", () => {
+        img.style.transform = "scale(1.05)";
+        img.style.transition = "transform 0.3s";
+    });
+
+    img.addEventListener("mouseout", () => {
+        img.style.transform = "scale(1)";
+    });
+});
