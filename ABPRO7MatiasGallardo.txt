@@ -1,0 +1,9 @@
+Único integrante del grupo:
+
+- Matías Gallardo
+
+Ruta del repositorio:
+
+https://github.com/viggeno94/pulgastore-matiasgallardo.git
+
+Como estoy solo en este proyecto, solo para dejar en claro lo aprendido, procedí a cambiar un título, que fue el h2. 
