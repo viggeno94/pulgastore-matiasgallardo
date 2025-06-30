@@ -7,8 +7,8 @@
 }
 
 #fecha {
-  background-color: rgb(75, 172, 202);
-  color: rgb(167, 24, 19);
+  background-color: rgba(0, 0, 0, 0.772);
+  color: rgb(255, 255, 255);
   border: solid 5px;
   border-radius: 25px;
   text-align: center;
@@ -59,6 +59,10 @@ form {
     background-color: rgb(5, 38, 67);
   }
 
+  #fecha {
+    width: 100vw;
+  }
+
   form {
     width: 100vw;
   }
@@ -71,6 +75,10 @@ form {
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     background-color: rgb(31, 46, 70);
+  }
+
+  #fecha {
+    width: 100vw;
   }
 
   form {

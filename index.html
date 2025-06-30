@@ -9,6 +9,9 @@
         integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
 </head>
 
 <body>
@@ -73,11 +76,19 @@
         </section>
         <section class="galeria">
             <h2>Galería de imagenes</h2>
-            <img src="https://www.hundshop.cl/cdn/shop/articles/FOTO_1_66910b8f-4873-4550-87b1-7e20c0279e58.png?v=1590760467"
-                class="img-fluid" alt="juguetes para perro">
-            <img src="/img/imagenes de tareas/813lD-DtT4L._AC_UF1000,1000_QL80_.jpg" class="img-fluid"
-                alt=" corbatas para perro">
-            <img src="/img/imagenes de tareas/M_arnesdoble7984.jpg" class="img-fluid" alt="arneses para perro">
+            <a href="https://www.hundshop.cl/cdn/shop/articles/FOTO_1_66910b8f-4873-4550-87b1-7e20c0279e58.png?v=1590760467"
+                data-fancybox="galeria" data-caption="Juguetes para perro">
+                <img src="https://www.hundshop.cl/cdn/shop/articles/FOTO_1_66910b8f-4873-4550-87b1-7e20c0279e58.png?v=1590760467"
+                    class="img-fluid" alt="juguetes para perro">
+            </a>
+            <a href="./img/imagenes de tareas/trajes.jpg" data-fancybox="galeria" data-caption="trajes para perro">
+                <img src="./img/imagenes de tareas/trajes.jpg" class="img-fluid" alt="trajes para perro">
+            </a>
+            <a href="/img/imagenes de tareas/M_arnesdoble7984.jpg" data-fancybox="galeria"
+                data-caption="Arneses para perro">
+                <img src="/img/imagenes de tareas/M_arnesdoble7984.jpg" class="img-fluid" alt="arneses para perro">
+            </a>
+
         </section>
     </main>
     <footer>
